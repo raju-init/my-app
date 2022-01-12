@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 1em;
+  background-color: #e0e5e9;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 3em;
+}
+
+.logo {
+  font-size: xx-large;
+  font-weight: 700;
+  font-family: "poppins", sans-serif;
+  color: #bf75f3;
+  margin-bottom: 1em;
+}
+
+.logo .last-name {
+  color: #272323;
+}
+
+section.qoutation {
+  text-align: center;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  font-family: "poppins", sans-serif;
+  font-weight: 700;
+  margin-bottom: 6em;
+}
+
+section.qoutation #author {
+  color: #b183d1;
+  margin-bottom: 2em;
+}
+
+section.qoutation #quote {
+  color: #272323;
+}
+
+.login-sec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #d7d7df;
+  width: 25%;
+  margin: auto;
+  height: auto;
+  border-radius: 1em;
+}
+
+@media only screen and (min-width: 600px) {
+  .login-sec {
+    width: 30%;
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 673px) {
+  .login-sec {
+    width: 50%;
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .login-sec {
+    width: 85%;
+    height: 300px;
+  }
+}
+
+.login-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.submit-btn {
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 1em;
+  font-size: large;
+  font-weight: 600;
+  background-color: #6d4de2;
+  color: #dbcde6;
+  font-family: "poppins", sans-serif;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: lightblue;
+  color: indigo;
+}
+
+.login-form .input {
+  text-align: center;
+  height: 2.5em;
+  margin-bottom: 1.5em;
+  border: 1px solid lightblue;
+  border-radius: 0.5rem;
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */

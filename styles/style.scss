@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1em;
+  background-color: rgb(224, 229, 233);
+}
+
+.wrapper {
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3em;
+}
+.logo {
+  font-size: xx-large;
+  font-weight: 700;
+  font-family: "poppins", sans-serif;
+  color: rgb(191, 117, 243);
+  margin-bottom: 1em;
+
+  .last-name {
+    color: rgb(39, 35, 35);
+  }
+}
+
+section.qoutation {
+  text-align: center;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  font-family: "poppins", sans-serif;
+  font-weight: 700;
+  margin-bottom: 6em;
+
+  #author {
+    color: rgb(177, 131, 209);
+    margin-bottom: 2em;
+  }
+  #quote {
+    color: rgb(39, 35, 35);
+  }
+}
+
+.login-sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(215, 215, 223);
+  width: 25%;
+  margin: auto;
+  height: auto;
+  border-radius: 1em;
+}
+@media only screen and (min-width: 600px) {
+  .login-sec {
+    width: 30%;
+    height: 300px;
+  }
+}
+@media only screen and (max-width: 673px) {
+  .login-sec {
+    width: 50%;
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .login-sec {
+    width: 85%;
+    height: 300px;
+  }
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit-btn {
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 1em;
+  font-size: large;
+  font-weight: 600;
+  background-color: rgb(109, 77, 226);
+  color: rgb(219, 205, 230);
+  font-family: "poppins", sans-serif;
+  cursor: pointer;
+
+  &:hover {
+    background-color: lightblue;
+    color: indigo;
+  }
+}
+
+.login-form {
+  .input {
+    text-align: center;
+    height: 2.5em;
+    margin-bottom: 1.5em;
+    border: 1px solid lightblue;
+    border-radius: 0.5rem;
+    color: black;
+  }
+}
